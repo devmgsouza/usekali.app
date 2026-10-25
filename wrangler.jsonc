@@ -1,6 +1,10 @@
 {
   "name": "usekali-app",                 // vira meu-site.<sua-conta>.workers.dev
   "compatibility_date": "2026-10-01",
+  "routes": [
+    { "pattern": "www.usekali.app", "custom_domain": true },
+    { "pattern": "usekali.app", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./public",          // ou ./dist/<projeto>/browser
     "not_found_handling": "404-page"  // use "single-page-application" se for SPA (Angular/React)
