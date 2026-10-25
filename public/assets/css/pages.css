@@ -1,0 +1,21 @@
+/* Ajustes especificos por pagina. */
+.page-head { padding-block: var(--sp-7); background: var(--c-dark); color: var(--c-on-dark); }
+.page-head h1 { color: var(--c-white); max-width: 22ch; }
+.page-head .lead { max-width: 44rem; margin-bottom: 0; }
+.page-head .btn-row { margin-top: var(--sp-5); }
+
+.cta-final { text-align: center; }
+.cta-final h2 { color: var(--c-white); max-width: 30ch; margin-inline: auto; }
+.cta-final .btn-row { justify-content: center; }
+
+.demo-layout { display: grid; gap: var(--sp-6); align-items: start; }
+@media (min-width: 960px) { .demo-layout { grid-template-columns: 1.2fr 0.8fr; gap: var(--sp-7); } }
+.demo-aside .card { background: var(--c-dark-deep); border-color: var(--c-border-dark); color: var(--c-on-dark); }
+.demo-aside .card__text { color: var(--c-on-dark-muted); }
+
+.two-col { display: grid; gap: var(--sp-6); }
+@media (min-width: 960px) { .two-col { grid-template-columns: 1fr 1fr; } }
+
+.thanks { text-align: center; max-width: 40rem; margin-inline: auto; }
+.page-404 { text-align: center; max-width: 36rem; margin-inline: auto; }
+.demo-aside .checklist .icon, .section--dark .checklist .icon { color: var(--c-accent); }

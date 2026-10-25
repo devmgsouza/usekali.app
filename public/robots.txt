@@ -1,0 +1,5 @@
+# Previa com dados ficticios (INDEXAR=false em site.config.js). Nao indexar.
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.exemplo.com.br/sitemap.xml

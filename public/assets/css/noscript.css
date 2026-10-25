@@ -1,0 +1,4 @@
+/* Carregado so quando o JavaScript esta desligado: mantem a navegacao visivel. */
+.nav-toggle { display: none !important; }
+.site-nav { display: block !important; position: static !important; }
+@media (max-width: 959px) { .site-header__inner { flex-wrap: wrap; height: auto; padding-block: 0.5rem; } }

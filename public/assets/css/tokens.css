@@ -1,0 +1,68 @@
+/* Tokens de design - derivados da secao 8 do plano (paleta marcada como HIPOTESE). */
+:root {
+  /* Cores de marca */
+  --c-dark: #1c2333;
+  --c-dark-deep: #141c2d;
+  --c-darkest: #0d1520;
+  --c-accent: #00ccff; /* ciano: so como texto sobre fundo escuro */
+  --c-teal: #0f766e;   /* apoio; texto sobre claro (contraste 5,5:1 no branco) */
+
+  /* Neutras */
+  --c-bg: #eceff3;
+  --c-white: #ffffff;
+  --c-text: #0f172a;
+  --c-muted: #475569;      /* ajuste do #64748b do plano para manter AA sobre #eceff3 */
+  --c-muted-soft: #64748b; /* somente sobre branco, texto grande/decorativo */
+  --c-border: #d5dbe4;
+  --c-on-dark: #f1f5f9;
+  --c-on-dark-muted: #b6c2d4;
+  --c-border-dark: #2c3750;
+
+  /* Estados */
+  --c-error: #b42318;
+  --c-error-bg: #fef3f2;
+  --c-ok: #0f766e;
+  --c-ok-bg: #ecfdf5;
+  --c-placeholder: #b45309;
+  --c-placeholder-bg: #fffbeb;
+  --c-focus: #0b6bcb;
+  --c-focus-dark: #66e0ff;
+
+  /* Tipografia */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1.0625rem;
+  --fs-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.3125rem);
+  --fs-h3: clamp(1.1875rem, 1.1rem + 0.45vw, 1.4375rem);
+  --fs-h2: clamp(1.625rem, 1.3rem + 1.6vw, 2.5rem);
+  --fs-h1: clamp(1.875rem, 1.4rem + 2.4vw, 3.375rem);
+  --lh-tight: 1.15;
+  --lh-body: 1.6;
+
+  /* Espacamento */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: clamp(3rem, 2rem + 4vw, 6rem);
+  --container: 72.5rem;
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2rem);
+  --header-h: 4.25rem;
+
+  /* Raio, sombra, movimento */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 6px 18px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 18px 44px rgba(13, 21, 32, 0.28);
+  --transition: 0.2s ease;
+  --z-header: 50;
+  --z-banner: 80;
+}
