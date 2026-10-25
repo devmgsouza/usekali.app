@@ -1,5 +1,5 @@
 {
-  "name": "www-usekali-app",                 // vira meu-site.<sua-conta>.workers.dev
+  "name": "usekali-app",                 // vira meu-site.<sua-conta>.workers.dev
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./public",          // ou ./dist/<projeto>/browser
